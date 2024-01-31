@@ -1,26 +1,52 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding:0%;
+    padding:0;
+    margin: 0;
 }
-
+body{
+    background-color: rgb(167, 167, 167);
+}
+header{
+    justify-content: center;
+    display: grid;
+    background-image: linear-gradient(to right,rgb(102, 102, 218) , rgb(0, 0, 142));
+    padding: 1%;
+}
 h1{
     margin: auto;
-    justify-self: center;
+
 }
 .parent{
-    display: inline-flex;
-    width: 100%;
-    
+    position: relative;
+}
+h2{
+    width: 25%;
 }
 .activeBox{
-    border:5px, solid, black;
-    padding: 10%;
-    width: 75%;
-    display: inline-block;
+    border:3px solid black;
+    padding: 5%;
+    position: absolute;
+    left:30%;
+    top: 20%;
+    width: 50%;
     background-color: aqua;
 }
+.formTotal{
+    margin-left: 2%;
+}
 .searchform{
-    width: 25%;
+    max-width: 40%;
+    min-width: 10%;
     background-color: brown;
     color: brown;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 180px;
+    height: 22px;
+    border: 0;
+    border-radius: 7px;
+    background-color: lightblue;
+    
 }
