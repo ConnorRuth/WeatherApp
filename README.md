@@ -15,7 +15,7 @@ Any web-browser.
 
 ## link
  link to site to begin usage:
-
+https://connorruth.github.io/WeatherApp/
 ## Usage
 ![screenshot of Landing Page](https://i.imgur.com/12E5HTF.png)
 ---
