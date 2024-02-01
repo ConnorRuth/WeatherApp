@@ -29,7 +29,7 @@ h2{
     left:30%;
     top: 20%;
     width: 50%;
-    background-color: aqua;
+    background-color: rgb(102, 102, 218);
 }
 .formTotal{
     margin-left: 2%;
@@ -37,8 +37,6 @@ h2{
 .searchform{
     max-width: 40%;
     min-width: 10%;
-    background-color: brown;
-    color: brown;
     display: flex;
     flex-direction: column;
 }
@@ -49,4 +47,32 @@ button{
     border-radius: 7px;
     background-color: lightblue;
     
+}
+h3, h5 {
+    padding: 1%;
+}
+ul{
+    list-style-type: none;
+    margin-top: 3%;
+}
+li{
+    border: 3px solid rgb(0, 0, 142);
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 2%;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline;
+}
+.forcastDays{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.dayOfWeek{
+    margin: 2%;
+    padding: 2%;
+    border: 3px solid black;
+    background-color:rgb(102, 102, 218);
 }
